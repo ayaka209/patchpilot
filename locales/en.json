@@ -1,0 +1,109 @@
+{
+  "app": {
+    "name": "PatchPilot",
+    "options": "PatchPilot Options"
+  },
+  "popup": {
+    "status": {
+      "active": "Active",
+      "disabled": "Disabled",
+      "rulesActive": "{count} Rules Active"
+    },
+    "mode": {
+      "lite": "Lite",
+      "full": "Full",
+      "debugBanner": "Debug banner will be shown"
+    },
+    "logs": {
+      "title": "Recent Logs",
+      "refresh": "Refresh",
+      "empty": "No recent activity",
+      "clearLogs": "Clear Logs"
+    },
+    "actions": {
+      "openOptions": "Open Options"
+    }
+  },
+  "options": {
+    "allRules": "All Rules",
+    "unknownGroup": "Unknown Group"
+  },
+  "rules": {
+    "addRule": "Add Rule",
+    "editRule": "Edit Rule",
+    "empty": {
+      "title": "No rules found.",
+      "hint": "Click \"Add Rule\" to create one."
+    },
+    "toggle": {
+      "on": "ON",
+      "off": "OFF",
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "confirmDelete": "Are you sure you want to delete rule \"{name}\"?",
+    "deleteFailed": "Failed to delete rule: {error}"
+  },
+  "editor": {
+    "titleAdd": "Add Rule",
+    "titleEdit": "Edit Rule",
+    "labels": {
+      "name": "Name",
+      "group": "Group",
+      "urlPattern": "URL Pattern (Regex)",
+      "script": "Script",
+      "enableRule": "Enable this rule"
+    },
+    "placeholders": {
+      "name": "e.g. Fix API Response",
+      "urlPattern": "e.g. https://api.example.com/v1/.*"
+    },
+    "help": {
+      "urlPattern": "Regular expression to match request URLs.",
+      "script": "Function signature: (content: string, url: string) => string"
+    },
+    "validation": {
+      "invalidRegex": "Invalid regex pattern"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "save": "Save Rule"
+    },
+    "saveFailed": "Failed to save rule: {error}"
+  },
+  "groups": {
+    "title": "Groups",
+    "placeholder": "New Group Name",
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "confirmDelete": "Are you sure you want to delete group \"{name}\"? All rules in this group will be deleted.",
+    "createFailed": "Failed to create group: {error}",
+    "updateFailed": "Failed to update group: {error}",
+    "deleteFailed": "Failed to delete group: {error}"
+  },
+  "importExport": {
+    "export": "Export Config",
+    "import": "Import Config",
+    "confirmImport": "This will overwrite your current configuration. Are you sure?",
+    "exportSuccess": "Configuration exported successfully",
+    "exportFailed": "Export failed: {error}",
+    "importSuccess": "Configuration imported successfully",
+    "importFailed": "Import failed: {error}"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "zhCN": "中文"
+  }
+}

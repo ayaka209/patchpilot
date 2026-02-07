@@ -1,0 +1,109 @@
+{
+  "app": {
+    "name": "PatchPilot",
+    "options": "PatchPilot 选项"
+  },
+  "popup": {
+    "status": {
+      "active": "已启用",
+      "disabled": "已禁用",
+      "rulesActive": "{count} 条规则生效中"
+    },
+    "mode": {
+      "lite": "轻量",
+      "full": "完整",
+      "debugBanner": "将显示调试横幅"
+    },
+    "logs": {
+      "title": "最近日志",
+      "refresh": "刷新",
+      "empty": "暂无活动记录",
+      "clearLogs": "清除日志"
+    },
+    "actions": {
+      "openOptions": "打开选项"
+    }
+  },
+  "options": {
+    "allRules": "所有规则",
+    "unknownGroup": "未知分组"
+  },
+  "rules": {
+    "addRule": "添加规则",
+    "editRule": "编辑规则",
+    "empty": {
+      "title": "暂无规则。",
+      "hint": "点击「添加规则」创建一条。"
+    },
+    "toggle": {
+      "on": "开",
+      "off": "关",
+      "enable": "启用",
+      "disable": "禁用"
+    },
+    "actions": {
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "confirmDelete": "确定要删除规则「{name}」吗？",
+    "deleteFailed": "删除规则失败：{error}"
+  },
+  "editor": {
+    "titleAdd": "添加规则",
+    "titleEdit": "编辑规则",
+    "labels": {
+      "name": "名称",
+      "group": "分组",
+      "urlPattern": "URL 匹配模式（正则）",
+      "script": "脚本",
+      "enableRule": "启用此规则"
+    },
+    "placeholders": {
+      "name": "例如：修复 API 响应",
+      "urlPattern": "例如：https://api.example.com/v1/.*"
+    },
+    "help": {
+      "urlPattern": "用于匹配请求 URL 的正则表达式。",
+      "script": "函数签名：(content: string, url: string) => string"
+    },
+    "validation": {
+      "invalidRegex": "无效的正则表达式"
+    },
+    "actions": {
+      "cancel": "取消",
+      "saving": "保存中...",
+      "save": "保存规则"
+    },
+    "saveFailed": "保存规则失败：{error}"
+  },
+  "groups": {
+    "title": "分组",
+    "placeholder": "新分组名称",
+    "actions": {
+      "save": "保存",
+      "cancel": "取消",
+      "edit": "编辑",
+      "delete": "删除",
+      "enable": "启用",
+      "disable": "禁用"
+    },
+    "confirmDelete": "确定要删除分组「{name}」吗？该分组下的所有规则也将被删除。",
+    "createFailed": "创建分组失败：{error}",
+    "updateFailed": "更新分组失败：{error}",
+    "deleteFailed": "删除分组失败：{error}"
+  },
+  "importExport": {
+    "export": "导出配置",
+    "import": "导入配置",
+    "confirmImport": "导入将覆盖当前配置，确定继续吗？",
+    "exportSuccess": "配置导出成功",
+    "exportFailed": "导出失败：{error}",
+    "importSuccess": "配置导入成功",
+    "importFailed": "导入失败：{error}"
+  },
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "zhCN": "中文"
+  }
+}

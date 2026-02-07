@@ -1,0 +1,1 @@
+var testContent = "original-content";

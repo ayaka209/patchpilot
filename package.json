@@ -1,0 +1,31 @@
+{
+  "name": "patchpilot",
+  "description": "Chrome MV3 extension for dynamic response override via URL pattern matching and user scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "vue-tsc --noEmit",
+    "postinstall": "wxt prepare",
+    "test": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "vue": "^3.5.27",
+    "vue-i18n": "^11.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@webext-core/fake-browser": "^1.3.4",
+    "@wxt-dev/module-vue": "^1.0.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18",
+    "vue-tsc": "^3.2.4",
+    "wxt": "^0.20.14"
+  }
+}
