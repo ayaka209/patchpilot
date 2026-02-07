@@ -104,6 +104,8 @@ Content scripts cannot intercept synchronous script tags that are already presen
 
 ## User Script Examples
 
+> For more detailed examples with full explanations, see the [examples/](./examples/) directory.
+
 ### 1. Simple String Replacement
 ```javascript
 function(content, url) {

@@ -93,6 +93,8 @@ Content scripts 无法拦截页面加载时 HTML 中已经存在的同步脚本�
 
 ## 用户脚本示例
 
+> 更多详细示例及完整说明，请参阅 [examples/](./examples/) 目录。
+
 ### 1. 简单字符串替换
 ```javascript
 function(content, url) {
